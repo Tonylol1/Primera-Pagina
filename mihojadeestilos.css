@@ -1,0 +1,120 @@
+@font-face {
+    font-family:themillion;
+    src: url(fondo.jpeg);
+}
+.cabecera{
+   
+   width: 100%;
+   background-image: url("imagenes/fotof.jpg");
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: 80% 80%;
+   color: white;
+   
+}
+
+.cabecera h1 {
+    text-align: right;
+    margin-right: 6em;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 3em ;
+}
+
+.cabecera p {
+    text-align: right;
+    margin-right: 9em;
+    font-family:'Gill Sans';
+    font-size: 1.5em ;
+}
+
+.cuerpo {
+   width: 100%;
+   background-image: url("imagenes/fondo.jpg");
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: 80% 100%;
+}
+
+body {
+   background-color:black;
+}
+
+aside h2{
+    color: white;
+    text-align: left;
+    margin-left: 35em;
+    font-family:'Gill Sans';
+    font-size: 1.7em ;
+}
+
+aside h3{
+    color: white;
+    text-align: left;
+    margin-left: 35em;
+    font-family:'Gill Sans';
+    font-size: 1.5em ;
+}
+
+header hgroup {
+    color: white;
+    text-align: left;
+    margin-left: 10em;
+    font-size: 1.5em ;
+}
+
+select {
+    border: none;
+    background:white;
+    font-size: 20px;
+    height: 35px;
+    width: 465px;
+    color: black;
+}
+
+section{
+    color: white;
+}
+
+.file-select {          
+    position: relative;
+    display: inline-block;
+}
+   
+.file-select::before {
+    background-color: #85868a;
+    color: black;
+    display: flex;            
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    content: 'Seleccionar archivo';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;                
+}
+   
+.file-select input[type="file"] {
+    opacity: 0;
+    width: 200px;
+    height: 32px;
+    display: inline-block;            
+}
+
+.boton{
+    font-size:25px;
+    
+    color:black;
+    background:#85868a;
+    border:0px;
+    width:250px;
+    height:40px;
+}
+div{
+    text-align: right;
+    margin-right: 10em;
+}
+footer{
+    color: white;
+}
